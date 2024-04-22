@@ -1,0 +1,169 @@
+body {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.Banner_201_Desktop {
+    background-image: url('../media/Banner_201_Desktop.webp');
+    background-size: auto;
+    background-position: center;
+    height: 539px;
+}
+
+.Banner_201_Mobile {
+    background-image: url('../media/Banner_201_Mobile.webp');
+    background-size: auto;
+    background-position: right;
+    height: 502px;
+}
+
+.Cinta_101_Desktop {
+    background-image: url('../media/Cinta_101_Desktop.webp');
+    background-repeat: repeat-x;
+    background-size: auto;
+    animation: slideBackground 30s infinite linear;
+    height: 30px;
+    width: 100%;
+}
+
+@keyframes slideBackground {
+    from {
+        background-position: 2000px;
+    }
+
+    to {
+        background-position: 0px;
+    }
+}
+
+.Cinta_102_Desktop {
+    background-image: url('../media/Cinta_102_Desktop.webp');
+    background-size: auto;
+    height: 56px;
+}
+
+.btn-dark {
+    --bs-btn-bg: #ffffff38;
+    --bs-btn-border-color: #fff;
+    --bs-btn-hover-bg: #bb2d3b;
+    --bs-btn-hover-border-color: #fff;
+    --bs-btn-active-bg: #b02a37;
+    --bs-btn-active-border-color: #fff;
+    font-weight: bold;
+    border-width: 3px;
+    border-radius: 15px;
+    padding: 8px !important;
+}
+
+.btn-danger {
+    --bs-btn-bg: #e30613;
+    --bs-btn-border-color: #fff;
+    border-width: 3px;
+    border-radius: 15px;
+    padding: 8px !important;
+    --bs-btn-hover-bg: #e94678;
+    --bs-btn-hover-border-color: #fff;
+    --bs-btn-focus-shadow-rgb: 225, 83, 97;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #e94678;
+    --bs-btn-active-border-color: #fff;
+}
+
+
+.card {
+    border-width: 0px;
+    background-repeat: repeat-x;
+    background-size: auto;
+    border-radius: 25px;
+    padding: 0;
+    height: fit-content;
+}
+
+.Card_301_Desktop {
+    background-image: url('../media/Card_301_Desktop.webp');
+    height: 389px;
+}
+
+.Card_302_Desktop {
+    background-image: url('../media/Card_302_Desktop.webp');
+    height: 389px;
+}
+
+.Card_303_Desktop {
+    background-image: url('../media/Card_303_Desktop.webp');
+    height: 389px;
+}
+
+.Card_304_Desktop {
+    background-image: url('../media/Card_304_Desktop.webp');
+    height: 389px;
+}
+
+.dropdownSection1 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 10px;
+}
+
+.imgSection2 {
+    width: 100%;
+}
+
+.dropdownSection2 {
+    border-radius: 25px;
+    border-width: 0;
+    padding: 0px 0px 10px 0px !important;
+    white-space: normal;
+    font-weight: bold;
+}
+
+.dropdown-item {
+    padding: 10px;
+}
+.dropdown-item {
+    --bs-dropdown-link-hover-bg: #f0efef
+}
+.dropdown-item.active, .dropdown-item:active{
+    background-color:#e94678
+}
+
+.gif-desktop {
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    padding: 0px 30px !important;
+    background-color: #f0efef !important;
+}
+
+ul li {
+    border-bottom: 1px solid #d3d3d3;
+    /* Cambia el color y el grosor según tus preferencias */
+}
+
+ul li:last-child {
+    border-bottom: none;
+    /* Elimina el borde inferior del último elemento */
+}
+
+
+.show i {
+    display: inline-block;
+    transform: rotate(90deg);
+    animation: girar 0.1s linear;
+    /* Agrega la animación */
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(90deg);
+    }
+}
